@@ -1,0 +1,40 @@
+cd front 
+ng s -o
+
+cd intento2 
+uvicorn main:app --reload
+
+------- PARA GUARDAR PROGRESO 
+git add .
+git commit -m 'descripcion de la Actualizacion'
+
+git push origin main 
+
+----------------Para Actualizar el proyecto 
+
+cd la ruta de REPUESTOS-CON-FRONT 
+
+git status
+git pull origin main 
+
+======================= instalamos dependencias del front si es necesario
+cd front 
+npm install ~
+cd back
+pip install -r requirements.txt
+
+
+git push origin main 
+
+*---------------------para despues de instalar una libreria de python meterle 
+
+pip freeze > requirements.txt
+
+depues agregar a github
+
+git add requirements.txt 
+git commit -m "Actualizacion de requirements"
+
+luego subimos el archivo 
+
+git push origin main 
