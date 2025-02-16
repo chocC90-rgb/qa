@@ -321,53 +321,13 @@ body{
     grid-gap: 16px;
     flex-wrap: wrap;
 }
-.content main .container-form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 17vh;
-}
-.content main .form-consultas{
-    display: flex;
-    flex-direction: row; /* Apila en columna */
-    align-items: center; /* Alinea a la izquierda */
-    gap: 12px;
-    width: 90%;
-    justify-content: center; 
-    background: #c6c7ce;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-
-#opcion0{
-    background-color: rgb(230, 228, 228); 
-    padding: 6px;
-    border-radius: 5px;
-    width: 120px;
+.content main .header .left h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--dark);
 }
-#opcion1{
-    background-color: white; 
-    padding: 6px;
-    border-radius: 5px;
-    width: 120px;
-}
-#opcion2{
-    background-color: white; 
-    padding: 6px;
-    border-radius: 5px;
-    width: 120px;
-}
-#opcion3{
-    background-color: white; 
-    padding: 6px;
-    border-radius: 5px;
-    width: 120px;
-}
-
-
 
 .content main .header .left .breadcrumb{
     display: flex;
